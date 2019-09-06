@@ -28,7 +28,7 @@ jobs:
         git init
         git config user.name zhaoye
         git config user.email zy81218@gmail.com
-        git remote add origin https://{$GITHUB_PAGES_TOKEN}@github.com/zhaoye/zhaoye.github.io.git
+        git remote add origin https://${GITHUB_PAGES_TOKEN}@github.com/zhaoye/zhaoye.github.io.git
         git add -A
         git commit -m "deploy"
         git push origin master -f
