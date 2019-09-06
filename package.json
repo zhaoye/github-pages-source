@@ -1,0 +1,23 @@
+{
+  "name": "github-pages-source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoye/github-pages-source.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaoye/github-pages-source/issues"
+  },
+  "homepage": "https://github.com/zhaoye/github-pages-source#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.4"
+  }
+}
