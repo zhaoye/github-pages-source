@@ -26,7 +26,7 @@ jobs:
         git add -A
         git commit -m "deploy"
         git config user.name zhaoye
-        git config user.mail zy81218@gmail.com
+        git config user.email zy81218@gmail.com
         git push -f git@github.com:zhaoye/zhaoye.github.io.git master
         cd -
       env:
