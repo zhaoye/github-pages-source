@@ -23,10 +23,10 @@ jobs:
         npm run docs:build --if-present
         cd docs/.vuepress/dist
         git init
+        git config user.name zhaoye
+        git config user.email zy81218@gmail.com
         git add -A
         git commit -m "deploy"
-        git config --global user.name zhaoye
-        git config --global user.email zy81218@gmail.com
         git push -f git@github.com:zhaoye/zhaoye.github.io.git master
         cd -
       env:
